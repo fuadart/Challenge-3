@@ -1,0 +1,233 @@
+/* Navigasi */
+.collapse.nav-right a {
+  display: flex;
+  color: white;
+  align-items: end;
+  justify-content: center;
+  flex-direction: row-reverse;
+}
+.navbar {
+  background: rgba(0, 0, 0, 0.5);
+  padding-top: 15px;
+  padding-bottom: 5px;
+  justify-content: space-between;
+}
+.navbar .navbar-brand {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 33px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.collapse {
+  padding-top: 15px;
+  padding-bottom: 5px;
+}
+.navbar .nav-item a {
+  list-style-type: none;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: white;
+  display: flex;
+  color: white;
+  align-items: end;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+/* main-screen */
+.main-screen {
+  background-image: url("assets/main-bg.jpg");
+  background-size: 100% 100%;
+  height: 100vh;
+  position: relative;
+}
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  justify-content: center;
+  align-content: center;
+}
+.title {
+  font-family: Arial;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 72px;
+  line-height: 83px;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.description p {
+  font-family: Arial;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 2px;
+  text-align: center;
+  color: #ffffff;
+}
+.btn-container {
+  font-family: Arial;
+  font-size: 72px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 83px;
+  letter-spacing: 3px;
+  text-align: center;
+}
+
+/* the games */
+.the-games {
+  background-image: url("assets/the-games-bg.jpg");
+  background-size: 100% 100%;
+  height: 100vh;
+  position: relative;
+}
+.the-games-title {
+  font-family: Arial;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 2px;
+  text-align: left;
+  color: #ffffff;
+}
+.the-games-title-2 {
+  font-family: Arial;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 64px;
+  letter-spacing: 3px;
+  text-align: left;
+  color: rgba(255, 255, 255, 1);
+}
+.carousel {
+  width: 800px;
+}
+/* Feature */
+.feature {
+  background-image: url("assets/features.jpg");
+  background-size: 100% 100%;
+  height: 100vh;
+  position: relative;
+}
+.feature-description {
+  font-family: Arial;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 2px;
+  text-align: left;
+  color: #ffffff;
+}
+.feature-description-2 {
+  font-family: Arial;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 64px;
+  letter-spacing: 3px;
+  text-align: left;
+  color: #ffffff;
+}
+.feature .sub-title p {
+  font-family: Arial;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 2px;
+  text-align: center;
+  color: rgba(255, 181, 72, 1);
+  height: 38.22958755493164px;
+  width: 348.2001037597656px;
+  left: 809.2919921875px;
+  top: 439.6015625px;
+  border-radius: nullpx;
+}
+.feature .sub-title-2 p {
+  font-family: Arial;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 2px;
+  text-align: center;
+  color: rgba(255, 181, 72, 1);
+  height: 38.22958755493164px;
+  width: 348.2001037597656px;
+  left: 809.2919921875px;
+  top: 439.6015625px;
+  border-radius: nullpx;
+}
+/*
+/* game requirement */
+.requirement {
+  background-image: url("assets/requirements.png");
+  background-size: 100% 100%;
+  height: 100vh;
+  position: relative;
+}
+.requirement-title {
+  font-family: Arial;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 64px;
+  letter-spacing: 3px;
+  text-align: left;
+  color: #ffffff;
+}
+.requirement-title-2 {
+  font-family: Arial;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 2px;
+  text-align: left;
+  color: #ffffff;
+}
+/* top scores */
+.top-scores {
+  background-image: url("assets/bg image 5.png");
+  background-size: 100% 100%;
+  height: 100vh;
+}
+.top-score-title {
+  font-family: Arial;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 64px;
+  letter-spacing: 3px;
+  text-align: left;
+  color: #ffffff;
+}
+.top-scores-description {
+  font-family: Open Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #ffffff;
+}
+/* Closing */
+.closing {
+  background-image: url("assets/bg image 5.png");
+  background-size: 100% 100%;
+  height: 100vh;
+}
