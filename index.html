@@ -12,8 +12,8 @@
     <title>Challenge 3</title>
   </head>
   <body>
-    <!-- Navigasi -->
-    <nav class="navbar navbar-expand-lg">
+     <!-- Navigasi -->
+     <nav class="navbar navbar-expand-lg">
       <a class="navbar-brand">LOGO</a>
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
@@ -42,6 +42,7 @@
     <!-- Main Screen -->
     <section class="main-screen">
       <div class="main-container">
+        
         <div class="title">
           <h1>PLAY TRADITIONAL GAME</h1>
         </div>
@@ -51,23 +52,23 @@
         <div class="btn-container">
           <button type="button" class="btn btn-warning">PLAY</button>
         </div>
-        <div class="the-story">
-          <p>THE STORY</p>
-        </div>
-        <div class="scroll-down">
-          <img src="./assets/scroll down.svg" alt="scroll-down">
-        </div>
+        <div class="scroll-down" position : absolute; bottom : 0;>
+          <div class="the-story"><p>THE STORY</p></div>
+          <div class="image"><img src="./assets/scroll down.svg" alt="scroll-down">
+          </div>
       </div>
     </section>
     <!-- main screen -->
     <!-- The Game -->
     <section class="the-games">
       <div class="main-container-2">
-        <div class="the-games-title">
-          <P>What's so special</P>
-        </div>
-        <div class="the-games-title-2">
-          <p>THE GAMES</p>
+        <div class="games-title">
+          <div class="the-games-title">
+            <P>What's so special</P>
+          </div>
+          <div class="the-games-title-2">
+            <p>THE GAMES</p>
+          </div>
         </div>
         <div class="carousel">
           <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
@@ -129,17 +130,34 @@
           <P>Can My Computer Run this game?</P>
         </div>
         <div class="table">
-          <tr>
-            <td>b1k1</td>
-            <td>b1k2</td>
-          </tr>
-            <td>b2k1</td>
-            <td>b2k2</td>
-          <tr>
-          </tr>
-            <td>b3k1</td>
-          <tr>
-          </tr>
+          <table>
+            <tr>
+              <th>
+                <div class="table-title">OS :</div>
+                <div class="table-description">Windows 7 64-bit only (No OSX support at this time)</div>    
+              </th>
+              <th>
+                <div class="table-title">PROCESSOR :</div>
+                <div class="table-description">Intel Core 2 Duo @2.4GHZ or AMD Althon X2 @2.8GHZ</div>      
+              </th>
+            </tr>
+            <tr>
+              <td>
+                <div class="table-title">MEMORY :</div>
+                <div class="table-description"> 4GB RAM</div>      
+              </td>
+              <td>
+                <div class="table-title">strorage:</div>
+                <div class="table-description">8GB available space</div> 
+              </td>
+            </tr>
+            <tr>
+              <td colspan="3">
+                <div class="table-title">GRAPHICS:</div>
+                <div class="table-description">NVIDIA GeForce GTX 660 2GB or AMD Radeon HD 7850 2GB DirectX11 (Shader Model 5)</div>         
+              </td>
+            </tr>
+          </table>
         </div>
        </div>
      </section>
