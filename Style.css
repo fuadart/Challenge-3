@@ -42,8 +42,8 @@
 /* main-screen */
 .main-screen {
   background-image: url("assets/main-bg.jpg");
-  background-size: 100% auto;
-  height: 130vh;
+  background-size: cover;
+  height: 100vh;
   position: relative;
   background-repeat: no-repeat;
 }
@@ -113,20 +113,23 @@
 /* the games */
 .the-games {
   background-image: url("assets/the-games-bg.jpg");
-  background-size: 100% 100%;
+  background-size: cover;
   height: 100vh;
   position: relative;
 }
 .main-container-2 {
   align-items: center;
   height: 100%;
+  display: flex;
 }
 .carousel {
-  width: 650px;
+  width: 80%;
 }
 .games-title {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-start;
 }
 .the-games-title {
   font-family: Arial;
@@ -152,11 +155,24 @@
 /* Feature */
 .feature {
   background-image: url("assets/features.jpg");
-  background-size: 100% 100%;
+  background-size: cover;
   height: 100vh;
   position: relative;
 }
-.feature-description {
+.main-container-3 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: flex-end;
+  box-sizing: border-box;
+  padding: 20px;
+}
+.feature-title {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.feature-1 {
   font-family: Arial;
   font-size: 24px;
   font-style: normal;
@@ -166,7 +182,7 @@
   text-align: left;
   color: #ffffff;
 }
-.feature-description-2 {
+.feature-2 {
   font-family: Arial;
   font-size: 56px;
   font-style: normal;
@@ -176,7 +192,13 @@
   text-align: left;
   color: #ffffff;
 }
-.feature .sub-title p {
+.feature-description {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: space-between;
+}
+.feature-3 {
   font-family: Arial;
   font-size: 24px;
   font-style: normal;
@@ -191,7 +213,7 @@
   top: 439.6015625px;
   border-radius: nullpx;
 }
-.feature .sub-title-2 p {
+.feature-4 {
   font-family: Arial;
   font-size: 24px;
   font-style: normal;
@@ -206,13 +228,27 @@
   top: 439.6015625px;
   border-radius: nullpx;
 }
-
+.feature-5 {
+  font-family: Arial;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 2px;
+  text-align: left;
+  color: rgba(255, 181, 72, 1);
+}
 /* game requirement */
 .requirement {
   background-image: url("assets/requirements.png");
-  background-size: 100% 100%;
+  background-size: cover;
   height: 100vh;
   position: relative;
+}
+.main-contain-4 {
+  display: flex;
+  padding: 10px;
+  flex-direction: column;
 }
 .requirement-title {
   font-family: Arial;
@@ -223,6 +259,7 @@
   letter-spacing: 3px;
   text-align: left;
   color: #ffffff;
+  display: flex;
 }
 .requirement-title-2 {
   font-family: Arial;
@@ -242,11 +279,28 @@
   width: 50%;
   border-bottom: 1px solid white;
   border-right: 1px solid white;
+  border-left: 1px solid white;
+  box-sizing: border-box;
+  margin: 10px;
+  justify-content: start;
+  flex-direction: column;
 }
 .table.table-title {
   color: rgba(182, 135, 7, 0.788);
 }
 /* top scores */
+.main-contain-5 {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+.text {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
 .top-scores {
   background-image: url("assets/bg image 5.png");
   background-size: 100% 100%;
@@ -275,6 +329,13 @@
 .card {
   width: 452px;
   height: 182px;
+  background: rgba(255, 255, 255, 0.08);
+  color: #ffffff;
+  margin: 80px;
+  justify-content: end;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
 .card-img-top {
   height: 65.26637268066406px;
@@ -285,17 +346,14 @@
 }
 .main-card {
   display: flex;
-  justify-content: flex-end;
-  align-items: flex-start;
-  padding-right: 20px;
-  padding-bottom: 20px;
-  margin-top: -90px;
+  flex-direction: column;
+  margin: -230px auto;
 }
 
 /* footer */
 .footer {
   background-color: black;
-  background-size: 100% 100%;
+  background-size: cover;
   height: 100vh;
 }
 .main-container-6 {
@@ -350,6 +408,9 @@
 .content-footer {
   display: flex;
   flex-wrap: wrap;
+  line-height: 2px;
+  align-items: center;
+  margin: 100px auto;
 }
 .button {
   display: flex;
@@ -374,4 +435,13 @@
   left: 697.111572265625px;
   top: 516.845703125px;
   border-radius: nullpx;
+}
+.content-footer-2 {
+  display: flex;
+  align-items: flex-end;
+}
+.text-footer {
+  color: #ffffff;
+  display: flex;
+  justify-content: space-around;
 }
