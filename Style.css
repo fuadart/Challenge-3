@@ -237,9 +237,6 @@
   width: 50%;
   border-bottom: 1px solid white;
   border-right: 1px solid white;
-  border-spacing: 1px solid white;
-  border-style: 1px solid white;
-  border-radius: 1px solit white;
 }
 .table.table-title {
   color: rgba(182, 135, 7, 0.788);
@@ -270,6 +267,26 @@
   text-align: left;
   color: #ffffff;
 }
+.card {
+  width: 452px;
+  height: 182px;
+}
+.card-img-top {
+  height: 65.26637268066406px;
+  width: 65.26637268066406px;
+  left: 879.92138671875px;
+  top: 170.19140625px;
+  border-radius: 0px;
+}
+.main-card {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  margin-top: -90px;
+}
+
 /* Closing */
 .closing {
   background-image: url("assets/bg image 5.png");
