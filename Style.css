@@ -70,7 +70,7 @@
   text-transform: uppercase;
   color: #ffffff;
 }
-.description p {
+.description h3 {
   font-family: Arial;
   font-size: 24px;
   font-style: normal;
@@ -238,6 +238,19 @@
   text-align: left;
   color: rgba(255, 181, 72, 1);
 }
+.col-6 h4 {
+  color: orange;
+}
+.col-6 h3 {
+  color: white;
+}
+.col-6 h1 {
+  color: #ffffff;
+}
+.col-6 p {
+  color: #ffffff;
+}
+
 /* game requirement */
 .requirement {
   background-image: url("assets/requirements.png");
