@@ -12,37 +12,41 @@
     <title>Challenge 3</title>
   </head>
   <body>
-     <!-- Navigasi -->
-     <nav class="navbar navbar-expand-lg navbar-dark bg-nav">
-      <a class="navbar-brand">LOGO</a>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          <li class="nav-item active">
-            <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">WORK</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">CONTACT</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">ABOUT ME</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">SIGHN UP</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">LOGIN</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-    <!-- Navigasi -->
     <!-- Main Screen -->
     <section class="main-screen">
-      <div class="main-container main-container-fluid content-center">
-        
+      <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-nav">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">LOGO</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">HOME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">WORK</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">CONTACT</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">ABOUT ME</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">LOGIN</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#">SIGN UP</a>
+            </li>  
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Navbar -->
+      <div class="main-container">  
         <div class="title">
           <h1>PLAY TRADITIONAL GAME</h1>
         </div>
@@ -61,16 +65,11 @@
     <!-- main screen -->
     <!-- The Game -->
     <section class="the-games">
-      <div class="main-container-2">
-        <div class="games-title">
-          <div class="the-games-title">
-            <h3>What's so special</h3>
+        <div class="main-container-2" id="about">
+          <div class="games-title">
+              <h3>What's so special</h3>
+              <h1>THE GAMES</h1>
           </div>
-          <div class="the-games-title-2">
-            <h1>THE GAMES</h1>
-          </div>
-        </div>
-        <div class="carousel-right">
           <div class="carousel">
             <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
               <ol class="carousel-indicators">
@@ -102,7 +101,7 @@
                 <span class="sr-only">Next</span>
               </a>
             </div>
-        </div>
+          </div>
         </div>
       </div>
     </section>
@@ -111,9 +110,6 @@
      <section class="feature" id="feature">
        <div class="main-container-3">
          <div class="row">
-            <div class="col-4">
-            </div> 
-            <div class="col-6" id="feature-content">
               <h3>What's so special</h3>
               <h1>FEATURES</h1>
               <h4>TRADITIONAL GAMES</h4>
@@ -122,94 +118,73 @@
               </p>
               <h4>GAME SUIT</h4>
               <h4>TBD</h4>
-            </div>
+         </div>
           </div>
        </div>
      </section>
      <!-- feature -->
      <!-- game requirement -->
      <section class="requirement">
-       <div class="main-contain-4">
-         <div class="requirement-1">
-          <div class="requirement-title">
-            <p>SYSTEM REQUIREMENT</p>
-          </div>
-          <div class="requirement-title-2">
-            <P>Can My Computer Run this game?</P>
-          </div>
+      <div class="main-contain-4">
+         <div class="requirement-title">
+           <h1>SYSTEM</h1>
+           <h1>REQUIREMENT</h1>
+           <h3>Can My Computer Run this game?</h3>
          </div>
-        <div class="table">
-          <table>
-            <tr>
-              <th>
-                <div class="table-title">OS :</div>
-                <div class="table-description">Windows 7 64-bit only (No OSX support at this time)</div>    
-              </th>
-              <th>
-                <div class="table-title">PROCESSOR :</div>
-                <div class="table-description">Intel Core 2 Duo @2.4GHZ or AMD Althon X2 @2.8GHZ</div>      
-              </th>
-            </tr>
-            <tr>
-              <td>
-                <div class="table-title">MEMORY :</div>
-                <div class="table-description"> 4GB RAM</div>      
-              </td>
-              <td>
-                <div class="table-title">strorage:</div>
-                <div class="table-description">8GB available space</div> 
-              </td>
-            </tr>
-            <tr>
-              <td colspan="3">
-                <div class="table-title">GRAPHICS:</div>
-                <div class="table-description">NVIDIA GeForce GTX 660 2GB or AMD Radeon HD 7850 2GB DirectX11 (Shader Model 5)</div>         
-              </td>
-            </tr>
-          </table>
-        </div>
+       <div class="table">
+         <table>
+           <tr>
+             <th>
+               <div class="table-title">OS :</div>
+               <div class="table-description">Windows 7 64-bit only (No OSX support at this time)</div>    
+             </th>
+             <th>
+               <div class="table-title">PROCESSOR :</div>
+               <div class="table-description">Intel Core 2 Duo @2.4GHZ or AMD Althon X2 @2.8GHZ</div>      
+             </th>
+           </tr>
+           <tr>
+             <td>
+               <div class="table-title">MEMORY :</div>
+               <div class="table-description"> 4GB RAM</div>      
+             </td>
+             <td>
+               <div class="table-title">strorage:</div>
+               <div class="table-description">8GB available space</div> 
+             </td>
+           </tr>
+           <tr>
+             <td colspan="3">
+               <div class="table-title">GRAPHICS:</div>
+               <div class="table-description">NVIDIA GeForce GTX 660 2GB or AMD Radeon HD 7850 2GB DirectX11 (Shader Model 5)</div>         
+             </td>
+           </tr>
+         </table>
        </div>
-     </section>
+      </div>
+    </section>
      <!-- game requirement -->
      <!-- top scores -->
      <section class="top-scores">
       <div class="main-contain-5">
-        <div class="text">
-         <div class="top-score-title">
-           <p>TOP SCORES</p>
-         </div>
-         <div class="top-scores-description">
-           <p>This top score from various games provided on this platform </p>
+         <div class="text">
+           <h1>TOP SCORES</h1>
+           <h3>This top score from various games provided on this platform </h3>
          </div>
          <div class="btn-container-2">
            <button type="button" class="btn btn-warning btn-lg">see more</button>
          </div>
-        </div>      
-       <div class="main-card">
-         <div class="card" style="width: 18rem;">
-           <img src="./assets/image 8.jpg" class="card-img-top" alt="image-8">
-         <div class="card-body">
-           <h5 class="card-title">Evan Lahti</h5>
-           <p class="card-text">“One of my gaming highlights of the year.”</p>
-         </div>
-         <div class="card" style="width: 18rem;">
-           <img src="./assets/image.jpg" class="card-img-top" alt="image-8">
-         <div class="card-body">
-           <h5 class="card-title">Jada Griffin</h5>
-           <p class="card-text">“The next big thing in the world of streaming and survival games.”</p>
-         </div>
-         <div class="card" style="width: 18rem;">
-           <img src="./assets/image (1).jpg" class="card-img-top" alt="image-8">
-         <div class="card-body">
-           <h5 class="card-title">Aaron Williams </h5>
-           <p class="card-text">“Snoop Dogg Playing The Wildly Entertaining ‘SOS’ Is Ridiculous.”</p>
-         </div>
-       </div>
-       </div>
-
+         <div class="card">
+          <div class="profile">
+              <div class="profil-detail">
+                <img src="./assets/image 8.jpg" alt="evan lathi" class="avatar">
+                <p>Evan Lathi<br><span style="color: grey;">PC Gamer</span></p>
+              </div>
+              <p>"One of my gaming highlights of the year."</p>
+              <p>October 18, 2018</p>
+          </div>
       </div>
     </section>
-
      <!-- top scores -->
      <!-- footer -->
      <section class="footer">
